@@ -12,8 +12,14 @@ Register page             |  Data protection rules page |  Registered page
 - Does not delete or override changed registrations (only marks them in the database as changed...).
 
 ## Usage
-It is important that the right permissions get set for the file db.ini (db.ini = where the database login information is stored),
+It is important that the **right permissions** get set for the file db.ini (db.ini = where the database login information is stored),
 so that only the server can read and edit this file.
+
+### Database
+A MySql database with the following table, called *"Immunity"*, was used.
+
+
+<img  src="./pictures/Database.jpg">
 
 <br>
 This website uses a template from [html5up](https://html5up.net/).
